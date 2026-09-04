@@ -5,7 +5,7 @@ pNMS: Python package for virtual experiments on the neuromuscular system at mult
 ## Description
 
 The pNMS was developed to enable the automatic construction and parallel simulation of biophysical models for heterogeneous neuromuscular cells at the levels of the motoneuron, muscle-tendon fiber, and motor unit under various physiological conditions. The software package provides a flexible, efficient application programming interface (API) with functions that can be used in the terminal or integrated into application scripts.
-
+```
 Project/
 ├────── pNMS/
 │       ├────── __init__.py
@@ -27,7 +27,7 @@ Project/
 ├────── pNMS_API.pdf
 ├────── README.md
 └────── LICENSE.md      
-
+```
 ## Getting Started
 
 ### Dependencies
@@ -41,21 +41,32 @@ The pNMS can be installed by cloning it from GitHub and moving it to the folder 
 ### Using API functions
 
 [1] How to use the pNMS API 
-#### import API library from the pNMS folder 
-import pNMS.application_programming as cf 
+#### import API library from the pNMS folder
+```
+import pNMS.application_programming as cf
+```
 #### use API functions 
+```
 cf.function_name(…)
+```
 
 [2] pNMS API functions
 #### Creation of a homogeneous population model 
-createPool 
+```
+createPool
+```
 #### Transition to a heterogeneous population model 
+```
 setParameters 
-plot_params 
+plot_params
+```
 #### Setup of simulation conditions 
+```
 setInitialValues 
-setSimulTimes 
+setSimulTimes
+```
 #### Setup of input conditions 
+```
 genNeuronInputSignals 
 genSynConSignals 
 genSpikeSignals 
@@ -71,16 +82,22 @@ setMuscleLengthSignals
 plotNeuronInputSignal 
 plotSynConSignal 
 plotSpikeSignal 
-plotMuscleLengthSignal 
+plotMuscleLengthSignal
+```
 #### Setup of parallel computing environment 
-setComputeNode 
+```
+setComputeNode
+```
 #### Execution of parallel simulation 
-runSimulation 
+```
+runSimulation
+```
 #### Display and saving of simulation results 
+```
 plotSimulResult 
 saveSimulationResults 
 plotImportData
-
+```
 Please see the user manual for the pNMS API (pNMS_API.pdf) for details.
 
 ### Executing program
