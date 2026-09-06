@@ -26,7 +26,7 @@ Project/
 │       └────── scripts.zip
 ├────── pNMS_API.pdf
 ├────── README.md
-└────── LICENSE.md      
+└────── LICENSE.txt      
 ```
 ## Getting Started
 
